@@ -10,3 +10,6 @@ jobs:
     - name: 'Checkout'
       uses: actions/checkout@v2.3.4
     - uses: "marvinpinto/action-automatic-releases@latest@v1.2.1"
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
