@@ -1,4 +1,4 @@
-package msr
+package mirantis
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
   )
