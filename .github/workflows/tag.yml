@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v2.4.0
       - name: 'Tag'
         uses: anothrNick/github-tag-action@1.36.0
-        with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
