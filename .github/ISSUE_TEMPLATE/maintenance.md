@@ -1,5 +1,5 @@
 ---
-name: maintenance
+name: Maintenance
 about: Suggest maintenance task
 title: ''
 labels: ''
