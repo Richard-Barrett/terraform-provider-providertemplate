@@ -4,7 +4,7 @@ import (
   "github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
   "github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 
-  "terraform-provider-mirantis/mirantis"
+  "github.com/Richard-Barrett/terraform-provider-mirantis/mirantis"
 )
 
 func main() {
