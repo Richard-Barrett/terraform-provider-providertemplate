@@ -12,4 +12,12 @@ A terraform provider to control configuration across multiple Mirantis Products.
 [![tfsec](https://github.com/Richard-Barrett/terraform-provider-mirantis/actions/workflows/tfsec.yaml/badge.svg)](https://github.com/Richard-Barrett/terraform-provider-mirantis/actions/workflows/tfsec.yaml)
 [![validate](https://github.com/Richard-Barrett/terraform-provider-mirantis/actions/workflows/validate.yml/badge.svg)](https://github.com/Richard-Barrett/terraform-provider-mirantis/actions/workflows/validate.yml)
 
+## contributions
 
+## directory structure overview
+
+## discussions
+
+## docs
+
+## workflows
