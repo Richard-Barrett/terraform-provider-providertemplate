@@ -1,1 +1,0 @@
-# Mirantis Provider Overview
