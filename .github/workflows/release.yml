@@ -9,7 +9,7 @@
 # You will need to pass the `--batch` flag to `gpg` in your signing step 
 # in `goreleaser` to indicate this is being used in a non-interactive mode.
 #
-name: 'release'
+name: release
 on:
   push:
     tags:
@@ -44,6 +44,9 @@ jobs:
           version: latest
           args: release --rm-dist
         env:
-          GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
+          # ORIGINAL TO THE ACTUAL DOCUMENT
+          # GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
+          # ASSUMING YOU SET THE FINGERPRINT TO A SECRET IN REPOSITORY
+          GPG_FINGERPRINT: ${{ secrets.GPG_FINGERPRINT }}
           # GitHub sets this automatically
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
