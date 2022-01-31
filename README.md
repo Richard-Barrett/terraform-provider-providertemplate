@@ -1,4 +1,4 @@
-# terraform-provider-provider
+# terraform-provider-providertemplate
 
 A terraform provider to control configuration across multiple Mirantis Products.
 
